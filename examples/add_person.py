@@ -46,6 +46,9 @@ if len(sys.argv) != 2:
   print("Usage:", sys.argv[0], "ADDRESS_BOOK_FILE")
   sys.exit(-1)
 
+
+## add this line just for comparison purposes
+
 address_book = addressbook_pb2.AddressBook()
 
 # Read the existing address book.
